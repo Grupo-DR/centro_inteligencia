@@ -49,10 +49,10 @@ function renderCatalog() {
           <h5 class="card-title fw-bold mb-3">${r.title}</h5>
           
           <div class="metadata-grid small text-secondary">
-            <div class="mb-1"><strong>Guardião Informação:</strong> ${r.guardian || '-'}</div>
-            <div class="mb-1"><strong>Responsável pela Atualização:</strong> ${r.updatemanager || '-'}</div>
-            <div class="mb-1"><strong>Fontes:</strong> ${r.sources || '-'}</div>
-            <div class="mb-1"><strong>Período de Atualização:</strong> ${r.frequency || '-'}</div>
+            <div class="mb-1"><strong>Guardião Informação:</strong> ${r.guardiao || '-'}</div>
+            <div class="mb-1"><strong>Responsável pela Atualização:</strong> ${r.responsavel || '-'}</div>
+            <div class="mb-1"><strong>Fontes:</strong> ${r.fontes || '-'}</div>
+            <div class="mb-1"><strong>Período de Atualização:</strong> ${r.periodicidade || '-'}</div>
           </div>
           
           <a href="viewer.html?id=${r.id}" class="stretched-link"></a>
