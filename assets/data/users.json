@@ -1,0 +1,186 @@
+{
+  "users": [
+    {
+      "username": "diego.justo",
+      "name": "Diego Justo",
+      "role": "USER",
+      "hash": "8646a6f8f1adc33cfe6ac7b7bf429e11ad8479a4fa3e4d51359b6f0bb157fad4",
+      "photo": "assets/Avatar/nan"
+    },
+    {
+      "username": "leandro.carvalho",
+      "name": "Leandro Carvalho",
+      "role": "USER",
+      "hash": "2d2e8b6fda822aa073fa310466811ed4523ef48cd7dc1e2b165d34f494c55d33",
+      "photo": "assets/Avatar/avt_carvalho.png"
+    },
+    {
+      "username": "alexandre.peres",
+      "name": "Alexandre Peres",
+      "role": "USER",
+      "hash": "d762e54ff546a5a3eaccfdcecff676ad71c663adc27e0070c5919aa2b6be52c1",
+      "photo": "assets/Avatar/avt_peres.png"
+    },
+    {
+      "username": "levy.oliveira",
+      "name": "Levy de Oliveira",
+      "role": "USER",
+      "hash": "9f546d02036e341f0d52b8787e3fa44a0614cff249b42d2da32e2fac54a50117",
+      "photo": "assets/Avatar/avt_levy.png"
+    },
+    {
+      "username": "nilton.camilo",
+      "name": "Nilton Camilo",
+      "role": "USER",
+      "hash": "cb5c60418102b124dcab92acd3b2e8497e13ad27bf7b98f32d658aa04a636d75",
+      "photo": "assets/Avatar/avt_nilton.png"
+    },
+    {
+      "username": "renata.branco",
+      "name": "Renata Gomes Branco",
+      "role": "USER",
+      "hash": "ee11a1b81e0f87b118f1a767689eacd0b3de399511df5e1ead11bdcb5e264e1b",
+      "photo": "assets/Avatar/avt_branco.png"
+    },
+    {
+      "username": "vanessa.panchoni",
+      "name": "Vanessa Panchocni Almeida",
+      "role": "USER",
+      "hash": "8d8d1745b7337e7f240dc2b479ab200c350681e7e741af40423ee641767d43c3",
+      "photo": "assets/Avatar/avt_panchoni.png"
+    },
+    {
+      "username": "vinicius.figueiredo",
+      "name": "Vinicius Felipe Figueiredo",
+      "role": "USER",
+      "hash": "7b34dcc98723cea77e7555fabab0a1846f8dd69d91f9d014c9f77f7ee0da8264",
+      "photo": "assets/Avatar/avt_figueiredo.png"
+    },
+    {
+      "username": "alexandre.cardoso",
+      "name": "Alexandre Dias Cardoso",
+      "role": "USER",
+      "hash": "33f35eb06f6a6d66029deec3357e3566de62a527ba5a2e85a894e4b18d25c95f",
+      "photo": "assets/Avatar/nan"
+    },
+    {
+      "username": "diego.teixeira",
+      "name": "Diego Miguel Teixeira",
+      "role": "USER",
+      "hash": "87763a4c765b1dae0eb174424e23cc1159e8ad120b6c88879e31e884fbfcb477",
+      "photo": "assets/Avatar/nan"
+    },
+    {
+      "username": "diogo.oliveira",
+      "name": "Diogo Batista de Oliveira",
+      "role": "USER",
+      "hash": "715f1f7c29fb854e81d6ed824d09c04ba39402ccb4340d6aca5d91fbfa6bb49d",
+      "photo": "assets/Avatar/avt_batista.png"
+    },
+    {
+      "username": "elio.oliveira",
+      "name": "Elio Ferreira de Oliveira",
+      "role": "USER",
+      "hash": "aad03f4d5028503794d304b8cc5b0865f5fd20843dd483240837d0266ecb088c",
+      "photo": "assets/Avatar/avt_elio.png"
+    },
+    {
+      "username": "fernanda.dias",
+      "name": "Fernanda Aparecida Dias",
+      "role": "USER",
+      "hash": "6c738b3e8e30a60500ee71f7ab989c1fb1acad69540d32342bf74c4184fc3ecd",
+      "photo": "assets/Avatar/avt_avila.png"
+    },
+    {
+      "username": "flaviano.nascimento",
+      "name": "Flaviano Nascimento",
+      "role": "USER",
+      "hash": "76f2d1ef1e459cdca91138d7ffb8cc2ea7cff0a4ec73f2a401c9d8873a611028",
+      "photo": "assets/Avatar/avt_flaviano.png"
+    },
+    {
+      "username": "josé.laurentino",
+      "name": "José Vitor Laurentino",
+      "role": "USER",
+      "hash": "0960b494b05267968356cf2ff0df0854ea95f696db1ab8503c1412ba163cec16",
+      "photo": "assets/Avatar/avt_laurentino.png"
+    },
+    {
+      "username": "karina.seabra",
+      "name": "Karina Seabra",
+      "role": "USER",
+      "hash": "f707900e998af793b447c024b4b4e0169e9a9203c927860da0e5be194acfcc96",
+      "photo": "assets/Avatar/avt_seabra.png"
+    },
+    {
+      "username": "luiz.fonseca",
+      "name": "Luiz Henrique Rodrigues da Fonseca",
+      "role": "USER",
+      "hash": "faf20c961aa4d5c876e51c8f7f341d7c0cb99577c913914ae9b67c4a74c860d3",
+      "photo": "assets/Avatar/avt_fonseca.png"
+    },
+    {
+      "username": "mivleder.fuchs",
+      "name": "Mivleder Dumont Fuchs",
+      "role": "USER",
+      "hash": "9da06c23bd1b4acd105fc196f5226914427bd76b3e77e2b9a07e39535277e5f1",
+      "photo": "assets/Avatar/avt_mivleder.png"
+    },
+    {
+      "username": "pedro.gonçalves",
+      "name": "Pedro Henrique Pereira Gonçalves",
+      "role": "USER",
+      "hash": "8f2c5c6693c970429af4088ea945148b8fc69a64c01c6686597b43725fba988d",
+      "photo": "assets/Avatar/avt_goncalves.png"
+    },
+    {
+      "username": "rafael.franceschi",
+      "name": "Rafael Franceschi",
+      "role": "USER",
+      "hash": "c4441c79a74c00a58379a535752176f97f9baf443b02bc3fb67681ebccf5e39a",
+      "photo": "assets/Avatar/avt_francheschi.png"
+    },
+    {
+      "username": "cintia.ferreira",
+      "name": "Cintia Ferreira",
+      "role": "USER",
+      "hash": "63a7694d1b5c72f08c9ae71697a658d744c83464343f09bacf0cb504b118a7c4",
+      "photo": "assets/Avatar/avt_cintia.png"
+    },
+    {
+      "username": "jorge.leite",
+      "name": "Jorge Leite",
+      "role": "USER",
+      "hash": "8ec9192ae993d411c0194c4e2a0e868b5b2f6b0ba6f786f202b80609c19c90d9",
+      "photo": "assets/Avatar/avt_leite.png"
+    },
+    {
+      "username": "maria.albuquerque",
+      "name": "Maria Tereza Silva de Albuquerque",
+      "role": "USER",
+      "hash": "e343d835f6ee523aaf08a9845082c2607af3f8dff393e7adbc0c3b852525b382",
+      "photo": "assets/Avatar/avt_tereza.png"
+    },
+    {
+      "username": "sérgio.farinácio",
+      "name": "Sérgio Farinácio",
+      "role": "USER",
+      "hash": "ca3307726cabc2379bc4a48322c736901a25f44952df94c99090874e9153b312",
+      "photo": "assets/Avatar/avt_farinacio.png"
+    },
+    {
+      "username": "antonio.silva",
+      "name": "Antonio Augusto da Silva",
+      "role": "ADMIN",
+      "hash": "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918",
+      "photo": "assets/Avatar/avt_antonio.png"
+    },
+    {
+      "username": "eloisa.vilela",
+      "name": "Eloisa Vilela",
+      "role": "USER",
+      "hash": "62529dee44318280a880edf4006544ff9d83bfedaf248fded32f35f3fab93d9a",
+      "photo": "assets/Avatar/avt_eloisa.png"
+    }
+  ]
+}

@@ -9,7 +9,7 @@ Desktop.ini
 
 # User data
 Usuários Portal CI DR/
-assets/data/users.json
+# assets/data/users.json (uncommented to allow deployment to Netlify)
 
 # OneDrive / Temp files
 ~$*
