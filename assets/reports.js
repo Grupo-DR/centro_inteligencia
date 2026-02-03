@@ -263,6 +263,47 @@ const REPORTS = [
     responsavel: 'Antonio Augusto da Silva (Comercial)',
     fontes: 'Ticket Log',
     periodicidade: 'Segunda a Sexta Até (10:00 hrs)',
+    detalhes: `
+      <ul>
+        <li><strong>Indicadores consolidados de abastecimento</strong>, incluindo:
+          <ul>
+            <li>Valor total de abastecimentos por tipo de combustível</li>
+            <li>Média mensal de gastos</li>
+          </ul>
+        </li>
+        <li><strong>Análise de despesas</strong>, com:
+          <ul>
+            <li>Despesa mensal total</li>
+            <li>Despesa por centro de custo</li>
+            <li>Despesa por estado, cidade e posto</li>
+          </ul>
+        </li>
+        <li><strong>Análise de preços de combustíveis</strong>, apresentando:
+          <ul>
+            <li>Preço médio por produto</li>
+            <li>Valores mínimos, médios e máximos por litro</li>
+            <li>Comparativo mensal de variação de preços</li>
+          </ul>
+        </li>
+        <li><strong>Visão analítica detalhada</strong>, com:
+          <ul>
+            <li>Índices de informações por UF, cidade e estabelecimento</li>
+            <li>Total abastecido</li>
+            <li>Média de valor por litro</li>
+            <li>Média ponderada por volume</li>
+          </ul>
+        </li>
+        <li><strong>Filtros interativos</strong>, permitindo segmentação por:
+          <ul>
+            <li>Ano, Mês</li>
+            <li>UF, Cidade, Estabelecimento</li>
+            <li>Tipo de combustível</li>
+            <li>Centro de custo</li>
+            <li>Regional</li>
+          </ul>
+        </li>
+      </ul>
+    `,
     url: 'https://app.powerbi.com/view?r=eyJrIjoiNmNhMTVjM2MtYjE4ZS00ZGQ5LWE0OGEtNGU1Mjk1M2MwZTI2IiwidCI6ImZhMmNlZmIyLTgzMWQtNGJkZS1iNGI5LTA5ZDM4NGE4NGZmZCJ9'
   },
 ];
