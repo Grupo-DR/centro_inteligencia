@@ -1,0 +1,61 @@
+/* Background blur layer */
+.bg-blur{
+  position: fixed;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(10,16,28,0.38), rgba(10,16,28,0.38)),
+    url('img/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(4px);
+  transform: scale(1.06);
+  z-index: -1;
+}
+
+/* Glass cards */
+.bg-glass{
+  background: rgba(255,255,255,0.8);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+.card:hover{ box-shadow: 0 8px 30px rgba(0,0,0,.08); transform: translateY(-1px); }
+
+.icon-od{
+  height:28px; width:28px; object-fit:contain;
+  transition: transform .15s ease, opacity .15s ease;
+}
+.icon-od:hover{ opacity:.9; transform: scale(1.03); }
+
+.brand-link {
+  font-weight: normal;
+  font-size: 0.9rem;
+  color: inherit;
+  text-decoration: none;
+}
+.brand-link:hover { text-decoration: underline; }
+
+.brand-groups{ gap: 1.5rem; }
+.brand-group{ gap: .5rem; }
+@media (min-width: 992px){ .brand-groups{ gap: 2rem; } }
+
+/* Avatar pequeno (navbar) */
+.avatar-sm{
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(31,163,215,.65);
+  box-shadow: 0 2px 8px rgba(0,0,0,.08);
+}
+
+#report-title{
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0,0,0,.35); /* opcional p/ contraste */
+}
+
+
+/* AUTH (comentado): estilos opcionais para exibir usuário e botão sair
+.user-chip{font-size:.9rem}
+*/

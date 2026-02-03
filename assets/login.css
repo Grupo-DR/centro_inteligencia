@@ -1,0 +1,49 @@
+/* Fundo com a imagem enviada (salve como assets/login-bg.jpg) */
+.login-body {
+  min-height: 100vh;
+  background: #0a101c;
+  position: relative;
+  overflow: hidden;
+  color: #e9eef6;
+  --accent: #1fa3d7;     /* azul ciano leve */
+  --brand:  #232747;     /* azul DR escuro */
+}
+
+/* camada do background com blur e overlay */
+.bg-layer {
+  position: fixed;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(10,16,28,0.55), rgba(10,16,28,0.55)),
+    url('login-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(1px);
+  transform: scale(1.06);
+  z-index: -2;
+}
+
+
+/* cartão vidro */
+.glass-card {
+  width: 100%;
+  max-width: 420px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.18);
+  border-radius: 24px;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  box-shadow: 0 10px 40px rgba(0,0,0,.25);
+}
+
+/* textos auxiliares */
+.text-light-80 { color: rgba(233,238,246,.85); }
+.text-light-60 { color: rgba(233,238,246,.65); }
+
+/* botão primário com toque DR */
+.btn-primary {
+  background: linear-gradient(135deg, var(--brand), #2f3b6a);
+  border: none;
+}
+.btn-primary:hover { filter: brightness(1.05); }
+.btn-primary:active { filter: brightness(0.95); }
