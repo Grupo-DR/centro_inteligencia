@@ -157,6 +157,50 @@ const REPORTS = [
     responsavel: 'Antonio Augusto da Silva (Comercial)',
     fontes: 'Razão Contábil TOTVS e Tabelas Medições',
     periodicidade: 'Segunda a Sexta Até (10:00 hrs)',
+    detalhes: `
+      <ul>
+        <li><strong>Visão consolidada de saldo de notas</strong>, incluindo:
+          <ul>
+            <li>Medição do mês</li>
+            <li>Faturamento do mês</li>
+            <li>Saldo mensal</li>
+            <li>Saldo acumulado final</li>
+          </ul>
+        </li>
+        <li><strong>Análise por regional e centro de custo</strong>, com:
+          <ul>
+            <li>Detalhamento hierárquico</li>
+            <li>Identificação de saldos positivos e negativos</li>
+          </ul>
+        </li>
+        <li><strong>Evolução mensal</strong>, apresentando:
+          <ul>
+            <li>Medição x faturamento por mês</li>
+            <li>Evolução do saldo acumulado ao longo do período</li>
+          </ul>
+        </li>
+        <li><strong>Saldo residual</strong>, destacando:
+          <ul>
+            <li>Valores pendentes</li>
+            <li>Ajustes acumulados</li>
+          </ul>
+        </li>
+        <li><strong>Detalhamento mensal por centro de custo</strong>, com:
+          <ul>
+            <li>Valores mês a mês</li>
+            <li>Total acumulado por período</li>
+          </ul>
+        </li>
+        <li><strong>Filtros interativos</strong>, permitindo segmentação por:
+          <ul>
+            <li>Tipo de centro de custo</li>
+            <li>Ano</li>
+            <li>Status</li>
+            <li>Mês</li>
+          </ul>
+        </li>
+      </ul>
+    `,
     url: 'https://app.powerbi.com/view?r=eyJrIjoiMzEzZjE5ZDAtYTE4YS00N2RjLWI1ZDgtYTRkNTJjZjZmYzBlIiwidCI6ImZhMmNlZmIyLTgzMWQtNGJkZS1iNGI5LTA5ZDM4NGE4NGZmZCJ9'
   },
   {
