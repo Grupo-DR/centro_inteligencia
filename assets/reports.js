@@ -40,6 +40,57 @@ const REPORTS = [
     responsavel: 'Antonio Augusto da Silva (Comercial)',
     fontes: 'Razão Contábil TOTVS',
     periodicidade: 'Segunda a Sexta Até (10:00 hrs)',
+    detalhes: `
+      <ul>
+        <li><strong>Indicadores financeiros consolidados</strong>, incluindo:
+          <ul>
+            <li>Faturamento bruto e líquido</li>
+            <li>Custos e despesas</li>
+            <li>Resultado total (margem em R$)</li>
+          </ul>
+        </li>
+        <li><strong>Análise histórica por ano</strong>, com:
+          <ul>
+            <li>Detalhamento por grupo de contas</li>
+            <li>Comparação entre exercícios</li>
+          </ul>
+        </li>
+        <li><strong>Resultado mensal</strong>, apresentando:
+          <ul>
+            <li>Valores realizados</li>
+            <li>Comparativos com budget e forecast</li>
+            <li>Percentuais de variação</li>
+          </ul>
+        </li>
+        <li><strong>Evolução do resultado mensal</strong>, com:
+          <ul>
+            <li>Faturamento x custos/despesas por mês</li>
+            <li>Evolução da margem total</li>
+          </ul>
+        </li>
+        <li><strong>Gestão de fornecedores e clientes</strong>, com:
+          <ul>
+            <li>Ranking por valor total</li>
+            <li>Detalhamento por empresa/pessoa, centro de custo e histórico</li>
+          </ul>
+        </li>
+        <li><strong>Análise de headcount</strong>, incluindo:
+          <ul>
+            <li>Quantidade de pessoas (diretos e indiretos)</li>
+            <li>Comparativo entre budget, forecast e realizado</li>
+            <li>Indicadores de custo por pessoa</li>
+          </ul>
+        </li>
+        <li><strong>Filtros interativos</strong>, permitindo segmentação por:
+          <ul>
+            <li>Ano, Mês</li>
+            <li>Centro de custo</li>
+            <li>Empresa/Pessoa</li>
+            <li>Contexto</li>
+          </ul>
+        </li>
+      </ul>
+    `,
     url: 'https://app.powerbi.com/view?r=eyJrIjoiZWJmZDliZjItM2QwYi00MmY2LTkxYmYtZmY5MTViNWYzYzAyIiwidCI6ImZhMmNlZmIyLTgzMWQtNGJkZS1iNGI5LTA5ZDM4NGE4NGZmZCJ9'
   },
   {
