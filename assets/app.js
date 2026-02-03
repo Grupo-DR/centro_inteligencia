@@ -41,27 +41,56 @@ function renderCatalog() {
 
   grid.innerHTML = window.REPORTS.map(r => `
     <div class="col-md-6 mb-4">
-      <div class="card bg-glass shadow-sm h-100">
-        <div class="card-body">
+      <div class="card bg-glass shadow-sm h-100 border-0">
+        <div class="card-body d-flex flex-column">
           <div class="d-flex justify-content-between align-items-start mb-2">
-            <span class="badge bg-secondary-subtle text-secondary border">${r.area || ''}</span>
+            <span class="badge bg-primary-subtle text-primary border-primary-subtle">${r.area || ''}</span>
           </div>
           <h5 class="card-title fw-bold mb-3">${r.title}</h5>
           
-          <div class="metadata-grid small text-secondary">
+          <div class="metadata-grid small text-secondary mb-3">
             <div class="mb-1"><strong>Guardião Informação:</strong> ${r.guardiao || '-'}</div>
             <div class="mb-1"><strong>Responsável pela Atualização:</strong> ${r.responsavel || '-'}</div>
             <div class="mb-1"><strong>Fontes:</strong> ${r.fontes || '-'}</div>
             <div class="mb-1"><strong>Período de Atualização:</strong> ${r.periodicidade || '-'}</div>
           </div>
+
+          ${r.detalhes ? `
+            <div id="desc-${r.id}" class="description-box mb-3 d-none">
+              <div class="p-3 bg-light rounded-3 small">
+                ${r.detalhes}
+              </div>
+            </div>
+          ` : ''}
           
-          <a href="viewer.html?id=${r.id}" class="stretched-link"></a>
+          <div class="mt-auto d-flex gap-2">
+            <a href="viewer.html?id=${r.id}" class="btn btn-primary btn-sm flex-grow-1">
+              Acessar Relatório
+            </a>
+            ${r.detalhes ? `
+              <button onclick="toggleDesc('${r.id}')" class="btn btn-outline-secondary btn-sm">
+                Ver Detalhes
+              </button>
+            ` : ''}
+          </div>
         </div>
       </div>
     </div>
   `).join('');
-
 }
+
+function toggleDesc(id) {
+  const el = document.getElementById(`desc-${id}`);
+  if (el) {
+    el.classList.toggle('d-none');
+    // Mudar texto do botão (opcional, mas bom)
+    const btn = event.target;
+    if (btn && btn.tagName === 'BUTTON') {
+      btn.textContent = el.classList.contains('d-none') ? 'Ver Detalhes' : 'Ocultar Detalhes';
+    }
+  }
+}
+
 
 // ======== RENDER VIEWER (iframe do Power BI) ========
 function renderViewer() {
