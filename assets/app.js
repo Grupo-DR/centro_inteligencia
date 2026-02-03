@@ -1,3 +1,4 @@
+// Version: 1.0.2
 // ======== GUARD (checa sessão) ========
 function ensureSignedInGuard() {
   const s = (typeof requireSessionOrRedirect === 'function')
