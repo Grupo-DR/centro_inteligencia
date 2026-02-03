@@ -1,0 +1,16 @@
+# Project workspace settings
+.vscode/
+.idea/
+
+# OS metadata
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# User data
+Usuários Portal CI DR/
+assets/data/users.json
+
+# OneDrive / Temp files
+~$*
+*.tmp
