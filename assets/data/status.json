@@ -1,0 +1,26 @@
+{
+    "gestao-comercial-v1": {
+        "status": "updated",
+        "updatedAt": "03/02/2026 10:30"
+    },
+    "dashboardFinanceiro-rev03": {
+        "status": "updated",
+        "updatedAt": "03/02/2026 09:15"
+    },
+    "dashboardFinanceiro-gerencial": {
+        "status": "updated",
+        "updatedAt": "03/02/2026 09:15"
+    },
+    "saldoNotas": {
+        "status": "updated",
+        "updatedAt": "03/02/2026 09:15"
+    },
+    "dashboardReuniaoSemanal": {
+        "status": "updated",
+        "updatedAt": "03/02/2026 09:15"
+    },
+    "dr_fuel": {
+        "status": "updated",
+        "updatedAt": "03/02/2026 09:15"
+    }
+}
