@@ -40,18 +40,27 @@ function renderCatalog() {
   if (!grid || !Array.isArray(window.REPORTS)) return;
 
   grid.innerHTML = window.REPORTS.map(r => `
-    <div class="col-md-4">
+    <div class="col-md-6 mb-4">
       <div class="card bg-glass shadow-sm h-100">
         <div class="card-body">
-          <small class="text-uppercase text-muted">${r.category || r.domain || ''}</small>
-          <h5 class="mt-2">${r.title}</h5>
-          <p class="small text-secondary">${r.description || ''}</p>
-          <p class="small mb-0">Owner: ${r.owner || ''}</p>
+          <div class="d-flex justify-content-between align-items-start mb-2">
+            <span class="badge bg-secondary-subtle text-secondary border">${r.area || ''}</span>
+          </div>
+          <h5 class="card-title fw-bold mb-3">${r.title}</h5>
+          
+          <div class="metadata-grid small text-secondary">
+            <div class="mb-1"><strong>Guardião Informação:</strong> ${r.guardian || '-'}</div>
+            <div class="mb-1"><strong>Responsável pela Atualização:</strong> ${r.updatemanager || '-'}</div>
+            <div class="mb-1"><strong>Fontes:</strong> ${r.sources || '-'}</div>
+            <div class="mb-1"><strong>Período de Atualização:</strong> ${r.frequency || '-'}</div>
+          </div>
+          
           <a href="viewer.html?id=${r.id}" class="stretched-link"></a>
         </div>
       </div>
     </div>
   `).join('');
+
 }
 
 // ======== RENDER VIEWER (iframe do Power BI) ========
