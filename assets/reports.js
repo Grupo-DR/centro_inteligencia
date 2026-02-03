@@ -101,6 +101,52 @@ const REPORTS = [
     responsavel: 'Antonio Augusto da Silva (Comercial)',
     fontes: 'Razão Contábil TOTVS e Tabelas Medições',
     periodicidade: 'Segunda a Sexta Até (10:00 hrs)',
+    detalhes: `
+      <ul>
+        <li><strong>Indicadores gerenciais consolidados</strong>, incluindo:
+          <ul>
+            <li>Medição bruta e líquida</li>
+            <li>Custos e despesas totais</li>
+            <li>Resultado total (margem em R$)</li>
+          </ul>
+        </li>
+        <li><strong>Análise gerencial por grupo de contas</strong>, com:
+          <ul>
+            <li>Comparação entre Budget, Forecast e Real</li>
+            <li>Percentuais de variação (% Budget, % Forecast, % Real)</li>
+            <li>Comparativo mês contra mês (% M-1)</li>
+          </ul>
+        </li>
+        <li><strong>Detalhamento mensal por grupo</strong>, apresentando:
+          <ul>
+            <li>Valores mês a mês</li>
+            <li>Total acumulado por conta</li>
+          </ul>
+        </li>
+        <li><strong>Gestão de fornecedores e clientes</strong>, com:
+          <ul>
+            <li>Ranking por valor total</li>
+            <li>Histórico de notas faturadas</li>
+            <li>Detalhamento por empresa/pessoa, centro de custo e mês</li>
+          </ul>
+        </li>
+        <li><strong>Análise de headcount</strong>, incluindo:
+          <ul>
+            <li>Quantidade de pessoas (diretos e indiretos)</li>
+            <li>Comparação entre budget e realizado</li>
+            <li>Indicadores de faturamento, despesa e resultado por pessoa</li>
+          </ul>
+        </li>
+        <li><strong>Filtros interativos</strong>, permitindo segmentação por:
+          <ul>
+            <li>Ano, Mês</li>
+            <li>Centro de custo</li>
+            <li>Empresa/Pessoa</li>
+            <li>Contexto</li>
+          </ul>
+        </li>
+      </ul>
+    `,
     url: 'https://app.powerbi.com/view?r=eyJrIjoiYjFkMjJkNjYtNmVkMC00YjVlLWE2OTEtOGM5MmUxOWM5ZmUzIiwidCI6ImZhMmNlZmIyLTgzMWQtNGJkZS1iNGI5LTA5ZDM4NGE4NGZmZCJ9'
   },
   {
