@@ -211,6 +211,48 @@ const REPORTS = [
     responsavel: 'Antonio Augusto da Silva (Comercial)',
     fontes: 'Razão Contábil TOTVS e Tabelas Medições',
     periodicidade: 'Segunda a Sexta Até (10:00 hrs)',
+    detalhes: `
+      <ul>
+        <li><strong>Indicadores financeiros consolidados</strong>, incluindo:
+          <ul>
+            <li>Faturamento (Budget, Forecast, Projeção e Real)</li>
+            <li>Custos (Budget, Forecast, Projeção e Real)</li>
+          </ul>
+        </li>
+        <li><strong>Controle por etapas de lançamento</strong>, permitindo:
+          <ul>
+            <li>Acompanhamento por fase (Etapas 1 a 4)</li>
+            <li>Análise de valores lançados e projetados</li>
+          </ul>
+        </li>
+        <li><strong>Análise gerencial por grupo de contas</strong>, com:
+          <ul>
+            <li>Comparação entre Budget, Forecast, Projeção e Real</li>
+            <li>Percentuais de variação (% Budget, % Forecast, % Projeção, % Real)</li>
+          </ul>
+        </li>
+        <li><strong>Detalhamento por centro de custo e regional</strong>, possibilitando:
+          <ul>
+            <li>Análises segmentadas</li>
+            <li>Identificação de desvios semanais</li>
+          </ul>
+        </li>
+        <li><strong>Histórico de notas faturadas</strong>, com:
+          <ul>
+            <li>Detalhamento por mês, centro de custo e descrição</li>
+            <li>Totalização por período</li>
+          </ul>
+        </li>
+        <li><strong>Filtros interativos</strong>, permitindo segmentação por:
+          <ul>
+            <li>Contexto (Construtora / Rental)</li>
+            <li>Regional, Etapa</li>
+            <li>Ano, Mês</li>
+            <li>Centro de custo</li>
+          </ul>
+        </li>
+      </ul>
+    `,
     url: 'https://app.powerbi.com/view?r=eyJrIjoiNTM4NGRjNDMtMTQzNi00ZWQyLTkyMzktOThjNWI5Njk1NzM0IiwidCI6ImZhMmNlZmIyLTgzMWQtNGJkZS1iNGI5LTA5ZDM4NGE4NGZmZCJ9'
   },
   {
