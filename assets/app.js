@@ -55,7 +55,7 @@ function renderCatalog() {
 
   grid.innerHTML = window.REPORTS.map(r => {
     const s = statusData[r.id] || { status: 'unknown', updatedAt: '-' };
-    const dotClass = s.status === 'updated' ? 'bg-success' : (s.status === 'outdated' ? 'bg-danger' : 'bg-secondary');
+    const badgeClass = s.status === 'updated' ? 'bg-success' : (s.status === 'outdated' ? 'bg-danger' : 'bg-secondary text-white');
 
     return `
       <div class="col-md-6 mb-4">
@@ -63,9 +63,9 @@ function renderCatalog() {
           <div class="card-body d-flex flex-column">
             <div class="d-flex justify-content-between align-items-start mb-2">
               <span class="badge bg-primary-subtle text-primary border-primary-subtle">${r.area || ''}</span>
-              <div class="d-flex align-items-center small text-secondary">
-                <span class="status-dot ${dotClass} me-2"></span>
-                <span>Atu: ${s.updatedAt}</span>
+              <div class="text-end">
+                <div class="small fw-bold text-muted" style="font-size: 0.7rem; text-transform: uppercase;">Última Atualização</div>
+                <span class="badge ${badgeClass}" style="font-size: 0.75rem;">${s.updatedAt}</span>
               </div>
             </div>
             <h5 class="card-title fw-bold mb-3">${r.title}</h5>
