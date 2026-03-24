@@ -39,7 +39,7 @@ const REPORTS = [
     guardiao: 'Sergio Farinacio (Controladoria)',
     responsavel: 'Antonio Augusto da Silva (Comercial)',
     fontes: 'Razão Contábil TOTVS',
-    periodicidade: 'Segunda a Sexta Até (10:00 hrs)',
+    periodicidade: 'Duas atualizações diárias de Segunda a Sexta (12:30 e 17:00)',
     detalhes: `
       <ul>
         <li><strong>Indicadores financeiros consolidados</strong>, incluindo:
@@ -100,7 +100,7 @@ const REPORTS = [
     guardiao: 'Sergio Farinacio (Controladoria)',
     responsavel: 'Antonio Augusto da Silva (Comercial)',
     fontes: 'Razão Contábil TOTVS e Tabelas Medições',
-    periodicidade: 'Segunda a Sexta Até (10:00 hrs)',
+    periodicidade: 'Duas atualizações diárias de Segunda a Sexta (12:30 e 17:00)',
     detalhes: `
       <ul>
         <li><strong>Indicadores gerenciais consolidados</strong>, incluindo:
@@ -156,7 +156,7 @@ const REPORTS = [
     guardiao: 'Sergio Farinacio (Controladoria)',
     responsavel: 'Antonio Augusto da Silva (Comercial)',
     fontes: 'Razão Contábil TOTVS e Tabelas Medições',
-    periodicidade: 'Segunda a Sexta Até (10:00 hrs)',
+    periodicidade: 'Duas atualizações diárias de Segunda a Sexta (12:30 e 17:00)',
     detalhes: `
       <ul>
         <li><strong>Visão consolidada de saldo de notas</strong>, incluindo:
@@ -210,7 +210,7 @@ const REPORTS = [
     guardiao: 'Sergio Farinacio (Controladoria)',
     responsavel: 'Antonio Augusto da Silva (Comercial)',
     fontes: 'Razão Contábil TOTVS e Tabelas Medições',
-    periodicidade: 'Segunda a Sexta Até (10:00 hrs)',
+    periodicidade: 'Duas atualizações diárias de Segunda a Sexta (12:30 e 17:00)',
     detalhes: `
       <ul>
         <li><strong>Indicadores financeiros consolidados</strong>, incluindo:
@@ -262,7 +262,7 @@ const REPORTS = [
     guardiao: 'Ana Luiza (Gestão de Ativos)',
     responsavel: 'Antonio Augusto da Silva (Comercial)',
     fontes: 'Ticket Log',
-    periodicidade: 'Segunda a Sexta Até (10:00 hrs)',
+    periodicidade: 'Duas atualizações diárias de Segunda a Sexta (12:30 e 17:00)',
     detalhes: `
       <ul>
         <li><strong>Indicadores consolidados de abastecimento</strong>, incluindo:
