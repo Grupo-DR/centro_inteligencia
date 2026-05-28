@@ -306,6 +306,55 @@ const REPORTS = [
     `,
     url: 'https://app.powerbi.com/view?r=eyJrIjoiNmNhMTVjM2MtYjE4ZS00ZGQ5LWE0OGEtNGU1Mjk1M2MwZTI2IiwidCI6ImZhMmNlZmIyLTgzMWQtNGJkZS1iNGI5LTA5ZDM4NGE4NGZmZCJ9'
   },
+  /*
+  {
+    id: 'gestao-absenteismo',
+    title: 'Dashboard - Indicadores de Gestão de Absenteísmo',
+    area: 'Capital Humano',
+    guardiao: 'Eloisa Vilela (Capital Humano)',
+    responsavel: 'Antonio Augusto da Silva (Comercial)',
+    fontes: 'Espelho de Ponto (TOTVS) e Folha de Pagamento',
+    periodicidade: 'Mensal',
+    detalhes: `
+      <ul>
+        <li><strong>Taxa de Absenteísmo Geral</strong>, incluindo:
+          <ul>
+            <li>Taxa de faltas (% do total)</li>
+            <li>Taxa de atrasos (% do total)</li>
+          </ul>
+        </li>
+        <li><strong>Volume de horas de absenteísmo</strong>:
+          <ul>
+            <li>Horas de faltas</li>
+            <li>Horas de atrasos</li>
+            <li>Dias equivalentes de ausência (base 9h/dia)</li>
+          </ul>
+        </li>
+        <li><strong>Evolução mensal da taxa de absenteísmo</strong>, comparando horas de atrasos, horas de faltas e taxa consolidada ao longo dos meses</li>
+        <li><strong>Visão executiva por Regional e Sede (Metas x Realizado)</strong>:
+          <ul>
+            <li>Comparativo de metas e resultados percentuais</li>
+            <li>Indicadores de aderência por regional (Regional 01, Regional 02, Sede e Total)</li>
+          </ul>
+        </li>
+        <li><strong>Indicadores detalhados por Colaborador</strong>:
+          <ul>
+            <li>Visão analítica com Chapa, Nome, Horas e Taxas de absenteísmo/atrasos/faltas</li>
+            <li>Classificação de status de absenteísmo (Crítico, Atenção, Saudável)</li>
+            <li>Filtros por regional, status e centro de custo</li>
+          </ul>
+        </li>
+        <li><strong>Histórico detalhado de ocorrências</strong>:
+          <ul>
+            <li>Lançamentos individuais por data, colaborador, chapa e centro de custo</li>
+            <li>Pesquisa direta por nome de colaborador</li>
+          </ul>
+        </li>
+      </ul>
+    `,
+    url: 'https://app.powerbi.com/view?r=eyJrIjoiNmY4NDcyZjgtNGM1MS00OWZiLTg4ZjgtMmRlMjczMWFmZThmIiwidCI6ImZhMmNlZmIyLTgzMWQtNGJkZS1iNGI5LTA5ZDM4NGE4NGZmZCJ9'
+  }
+  */
 ];
 
 

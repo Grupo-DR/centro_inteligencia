@@ -1,0 +1,38 @@
+name: Power BI Status Autoupdate
+
+on:
+  repository_dispatch:
+    types: [powerbi_refresh]
+
+# Garante que o workflow tem permissão para escrever alterações no repositório
+permissions:
+  contents: write
+
+jobs:
+  update-status:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Baixar o código do repositório
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Configurar Node.js no ambiente virtual do runner
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # 3. Executar o script Node.js para editar o status.json
+      - name: Run update script
+        run: node .github/scripts/update_status.js
+        env:
+          REPORT_ID: ${{ github.event.client_payload.id }}
+          UPDATED_AT: ${{ github.event.client_payload.updatedAt }}
+
+      # 4. Gravar a alteração no Git e enviar de volta ao repositório
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "auto: atualiza data de atualizacao do relatório ${{ github.event.client_payload.id }}"
+          file_pattern: "assets/data/status.json"

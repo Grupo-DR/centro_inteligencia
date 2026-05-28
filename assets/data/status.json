@@ -22,5 +22,9 @@
     "dr_fuel": {
         "status": "updated",
         "updatedAt": "03/02/2026 09:15"
+    },
+    "gestao-absenteismo": {
+        "status": "updated",
+        "updatedAt": "25/05/2026 12:15"
     }
 }
