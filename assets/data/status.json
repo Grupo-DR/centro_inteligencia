@@ -1,27 +1,27 @@
 {
     "gestao-comercial-v1": {
         "status": "updated",
-        "updatedAt": "03/02/2026 10:30"
+        "updatedAt": "11/05/2026 12:00"
     },
     "dashboardFinanceiro-rev03": {
         "status": "updated",
-        "updatedAt": "03/02/2026 09:15"
+        "updatedAt": "28/05/2026 10:15"
     },
     "dashboardFinanceiro-gerencial": {
         "status": "updated",
-        "updatedAt": "03/02/2026 09:15"
+        "updatedAt": "28/05/2026 10:15"
     },
     "saldoNotas": {
         "status": "updated",
-        "updatedAt": "03/02/2026 09:15"
+        "updatedAt": "28/05/2026 10:15"
     },
     "dashboardReuniaoSemanal": {
         "status": "updated",
-        "updatedAt": "03/02/2026 09:15"
+        "updatedAt": "28/05/2026 10:15"
     },
     "dr_fuel": {
         "status": "updated",
-        "updatedAt": "03/02/2026 09:15"
+        "updatedAt": "28/05/2026 10:15"
     },
     "gestao-absenteismo": {
         "status": "updated",
