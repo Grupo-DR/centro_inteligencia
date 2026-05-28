@@ -34,14 +34,27 @@ try {
   let formattedDate = updatedAtInput;
   try {
     const dateObj = new Date(updatedAtInput);
-    if (!isNaN(dateObj.getTime()) && (updatedAtInput.includes('T') || updatedAtInput.includes('-'))) {
-      // Se for formato ISO (ex: 2026-05-28T12:00:00Z), convertemos para DD/MM/YYYY HH:MM
-      const day = String(dateObj.getDate()).padStart(2, '0');
-      const month = String(dateObj.getMonth() + 1).padStart(2, '0');
-      const year = dateObj.getFullYear();
-      const hours = String(dateObj.getHours()).padStart(2, '0');
-      const minutes = String(dateObj.getMinutes()).padStart(2, '0');
-      formattedDate = `${day}/${month}/${year} ${hours}:${minutes}`;
+    if (!isNaN(dateObj.getTime())) {
+      // Usando Intl.DateTimeFormat para formatar no fuso de Brasília (America/Sao_Paulo)
+      // independente do fuso horário da máquina/servidor onde o script roda.
+      const formatter = new Intl.DateTimeFormat('pt-BR', {
+        timeZone: 'America/Sao_Paulo',
+        day: '2-digit',
+        month: '2-digit',
+        year: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit',
+        hour12: false
+      });
+      
+      const formattedParts = formatter.formatToParts(dateObj);
+      const day = formattedParts.find(p => p.type === 'day').value;
+      const month = formattedParts.find(p => p.type === 'month').value;
+      const year = formattedParts.find(p => p.type === 'year').value;
+      const hour = formattedParts.find(p => p.type === 'hour').value;
+      const minute = formattedParts.find(p => p.type === 'minute').value;
+      
+      formattedDate = `${day}/${month}/${year} ${hour}:${minute}`;
     }
   } catch (err) {
     console.log("Mantendo formato original de data informado.");
