@@ -147,7 +147,7 @@ const REPORTS = [
         </li>
       </ul>
     `,
-    url: 'https://app.powerbi.com/view?r=eyJrIjoiYjFkMjJkNjYtNmVkMC00YjVlLWE2OTEtOGM5MmUxOWM5ZmUzIiwidCI6ImZhMmNlZmIyLTgzMWQtNGJkZS1iNGI5LTA5ZDM4NGE4NGZmZCJ9'
+    url: "https://app.powerbi.com/view?r=eyJrIjoiYjc2YjQ1Y2EtNjBhMC00MzNiLWE1MDItNDM5ZWM0MjdiZTRhIiwidCI6ImZhMmNlZmIyLTgzMWQtNGJkZS1iNGI5LTA5ZDM4NGE4NGZmZCJ9&pageName=fe92497007061cb7b309"
   },
   {
     id: 'saldoNotas',
