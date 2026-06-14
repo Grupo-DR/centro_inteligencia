@@ -253,7 +253,7 @@ const REPORTS = [
         </li>
       </ul>
     `,
-    url: 'https://app.powerbi.com/view?r=eyJrIjoiNTM4NGRjNDMtMTQzNi00ZWQyLTkyMzktOThjNWI5Njk1NzM0IiwidCI6ImZhMmNlZmIyLTgzMWQtNGJkZS1iNGI5LTA5ZDM4NGE4NGZmZCJ9'
+    url: 'https://app.powerbi.com/view?r=eyJrIjoiZjRiYmZjMTAtZGI0YS00ZWJjLTliZjQtMGMyZWUzN2JkNWJjIiwidCI6ImZhMmNlZmIyLTgzMWQtNGJkZS1iNGI5LTA5ZDM4NGE4NGZmZCJ9'
   },
   {
     id: 'dr_fuel',
