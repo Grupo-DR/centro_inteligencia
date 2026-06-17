@@ -91,7 +91,7 @@ const REPORTS = [
         </li>
       </ul>
     `,
-    url: 'https://app.powerbi.com/view?r=eyJrIjoiZWJmZDliZjItM2QwYi00MmY2LTkxYmYtZmY5MTViNWYzYzAyIiwidCI6ImZhMmNlZmIyLTgzMWQtNGJkZS1iNGI5LTA5ZDM4NGE4NGZmZCJ9'
+    url: 'https://app.powerbi.com/view?r=eyJrIjoiNzU4ZGM5Y2EtNjllNi00ODM3LTgyOTYtN2IxNDIzNWE5MmQ4IiwidCI6ImZhMmNlZmIyLTgzMWQtNGJkZS1iNGI5LTA5ZDM4NGE4NGZmZCJ9'
   },
   {
     id: 'dashboardFinanceiro-gerencial',
