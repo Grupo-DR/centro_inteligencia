@@ -181,6 +181,13 @@
       "role": "USER",
       "hash": "62529dee44318280a880edf4006544ff9d83bfedaf248fded32f35f3fab93d9a",
       "photo": "assets/Avatar/avt_eloisa.png"
+    },
+    {
+      "username": "dimitri.gomes",
+      "name": "Dimitri Freitas Gomes da Silva",
+      "role": "ADMIN",
+      "hash": "d88542c0bfec60dc54ea4e453f37376859fb992903d3c107bbd178c940b300ab",
+      "photo": "assets/Avatar/nan"
     }
   ]
 }
