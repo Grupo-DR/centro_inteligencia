@@ -256,7 +256,7 @@ const REPORTS = [
     url: 'https://app.powerbi.com/view?r=eyJrIjoiZjRiYmZjMTAtZGI0YS00ZWJjLTliZjQtMGMyZWUzN2JkNWJjIiwidCI6ImZhMmNlZmIyLTgzMWQtNGJkZS1iNGI5LTA5ZDM4NGE4NGZmZCJ9'
   },
   {
-    id: 'dr_fuel',
+    id: 'Dashboard - Gestão Combustível',
     title: 'Dashboard - Gestão de Abastecimentos',
     area: 'Gestão de Ativos',
     guardiao: 'Ana Luiza (Gestão de Ativos)',
@@ -304,7 +304,7 @@ const REPORTS = [
         </li>
       </ul>
     `,
-    url: 'https://app.powerbi.com/view?r=eyJrIjoiNmNhMTVjM2MtYjE4ZS00ZGQ5LWE0OGEtNGU1Mjk1M2MwZTI2IiwidCI6ImZhMmNlZmIyLTgzMWQtNGJkZS1iNGI5LTA5ZDM4NGE4NGZmZCJ9'
+    url: 'https://app.powerbi.com/view?r=eyJrIjoiY2MzZWZmYWItYThhNC00MTE5LThmMDUtYmU2Nzg4YjIwNTFhIiwidCI6ImZhMmNlZmIyLTgzMWQtNGJkZS1iNGI5LTA5ZDM4NGE4NGZmZC'
   },
   /*
   {
