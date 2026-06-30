@@ -304,7 +304,7 @@ const REPORTS = [
         </li>
       </ul>
     `,
-    url: 'https://app.powerbi.com/view?r=eyJrIjoiY2MzZWZmYWItYThhNC00MTE5LThmMDUtYmU2Nzg4YjIwNTFhIiwidCI6ImZhMmNlZmIyLTgzMWQtNGJkZS1iNGI5LTA5ZDM4NGE4NGZmZC'
+    url: 'https://app.powerbi.com/view?r=eyJrIjoiY2MzZWZmYWItYThhNC00MTE5LThmMDUtYmU2Nzg4YjIwNTFhIiwidCI6ImZhMmNlZmIyLTgzMWQtNGJkZS1iNGI5LTA5ZDM4NGE4NGZmZCJ9'
   },
   /*
   {
